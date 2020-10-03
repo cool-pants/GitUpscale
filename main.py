@@ -1,12 +1,10 @@
 from os import system, name
 from time import sleep
 
-
 def clear():
     if name == "nt":
         _ = system("cls")
-
-
+## This is an amazing system!
 for i in range(4):
     print("Searching for Hackers.")
     sleep(0.5)
@@ -20,8 +18,8 @@ for i in range(4):
 
 clear()
 
-s = "Found all Hackers"
-d = "Displaying"
+s = "Found all Hackers!"
+d = "Displaying..."
 
 # print(dl)
 
